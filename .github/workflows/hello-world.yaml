@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "TODAY=$(date +%y-%m-%d)" >> $GITHUB_ENV
-      - run: echo Branch main $TODAY
+      - run: echo Branch main asd $TODAY
